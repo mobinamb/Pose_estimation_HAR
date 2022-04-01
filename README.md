@@ -26,5 +26,5 @@ where 256 * 256 is the required size of the input image into stack hourglass mod
 
 The center and scale is automatically created from the landmarks on each image and will be further used for converting the heatmap output of the model into landmarks on the image.
 
-2) 
-Preprocessing_and_training code prepares the training dataset, trains the model and draws the training results such as loss and accuracy curves. It also plots the heatmap of the predicted joints and the predicted landmarks on each image. 
+2) training.ipynb trains the model and draws the training results such as loss and accuracy curves. It rerquires the trainloader that was produced by data_preparation.ipynb. To change the hyperparameters including the learning rate, batch size, epoch, and number of stacks you can adjust this code.
+3) visualization.ipynb also plots the heatmap of the predicted joints and the predicted landmarks on each image. 
