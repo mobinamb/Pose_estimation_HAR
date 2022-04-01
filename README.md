@@ -6,7 +6,9 @@ The hip center, spine, shoulder center, head, L/ R shoulder, L/ R elbow, L/ R wr
 
 2) A code related to human activity recognition (HAR) which is the same code as the pose estimation model with a batch normalization, LSTM, and fully connected layer on the top.
 
-Intruction to install:
+Intruction to install: The required libraries with their version can be installed using the following command:
+
+pip install -r requirements.txt
 
 Intruction to run the code:
 
